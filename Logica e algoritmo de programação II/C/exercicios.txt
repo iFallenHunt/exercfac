@@ -1,0 +1,36 @@
+1. É comum, em uma aplicação, ter de determinar quais números são o maior ou o
+menor, dentre todos os valores de um conjunto de dados. Assim sendo, escreva
+um programa que receba cinco números inteiros e apresente o maior e o menor.
+
+2. Em algumas situações, em uma aplicação, é preciso determinar quais são os
+números múltiplos de um ou mais valores, dentre todos os valores de um conjunto
+de dados. Dessa forma, faça um programa que leia um número e informe
+se ele é divisível por três e por sete.
+
+3. Considere uma aplicação que necessita de um calendário embutido. Assim sendo,
+construa um programa que, dado um número inteiro, informe o mês correspondente.
+
+4. Elabore um programa que receba o salário de um funcionário e o código do
+cargo e apresente o cargo, o valor do aumento e o novo salário. A tabela a
+seguir apresenta os cargos.
+Código Cargo Percentual do aumento
+1 Servente 40%
+2 Pedreiro 35%
+3 Mestre de obras 20%
+4 Técnico de segurança 10%
+
+5. Faça um programa que receba o código do estado de origem da carga de um caminhão,
+o peso da carga em toneladas e o código dela.
+
+Código Cargo
+  1		20
+  2		15
+  3		10
+  4		5
+
+Código da carga Preço por quilo
+  10 a 20 			  180
+  21 a 30 			  120
+  31 a 40 			  230
+Calcule e apresente: o peso da carga em quilos, o preço da carga, o valor do imposto
+e o valor total da carga (preço da carga mais imposto).
