@@ -1,0 +1,27 @@
+1. Desenvolva um cadastro de produtos que contenha código, descrição, unidade epreço para 20 produtos. Defina um menu com as seguintes opções:
+I - Cadastrar os 20 registros.
+II - Pesquisar um produto pelo código.
+III - Classificar por ordem de descrição os registros cadastrados.
+IV - Classificar por ordem de código.
+V - Apresentar todos os registros.
+VI - Sair do programa de cadastro.
+
+2. Elabore um algoritmo para cadastro de dez pessoas, contendo as seguintes informações:
+nome, idade, altura e peso. O menu deve apresentar as seguintes opções:
+I - Cadastrar os dez registros.
+II - Ordenar os registros por idade.
+III - Apresentar a média de peso das pessoas.
+IV - Apresentar o nome das pessoas com peso acima de 50 kg.
+V - Sair do programa.
+
+3. Escreva uma função que receba um caractere e retorne 1 se for uma consoante, número ou caractere especial, e retorne 0 se for vogal.
+
+4. Elabore um programa com uma sub-rotina que apresente o somatório dos N primeiros números pares, definidos por um operador. O valor de N será informado pelo usuário.
+
+5. Escreva um procedimento que efetue a leitura de um número inteiro e apresente uma mensagem informando se o número é par ou ímpar.
+
+6. Desenvolva um programa que, por meio de uma sub-rotina, apresente como resultado o valor absoluto de um número.
+
+7. Elabore um algoritmo que, por meio de função, efetue e apresente o valor da conversão de um valor em real de um valor lido em euros. Deverá ser solicitado, por meio do programa principal, o valor da cotação do euro e a quantidade de euro disponível.
+
+8. Escreva um algoritmo utilizando função que converta dada temperatura lida em Celsius para Fahrenheit.

@@ -1,0 +1,172 @@
+<<<<<<< HEAD
+Algoritmo calculadora
+
+Procedimento soma(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A + B
+	Escreva(“O resultado da soma é:”, Resultado)
+	
+Fim_procedimento
+
+Procedimento subtracao(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A - B
+	Escreva(“O resultado da subtração é:”, Resultado)
+
+Fim_procedimento
+
+Procedimento multiplicação(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A * B
+	Escreva(“O resultado da multiplicaçãoé :”, Resultado)
+
+Fim_procedimento
+
+Procedimento divisão(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A / B
+	Escreva(“O resultado da divisão é :”,resultado)
+
+Fim_procedimento
+
+Var
+
+	opcao: inteiro
+	X, Y: real
+
+Início
+
+	opcao <- 0
+	Enquanto (opcao <> 5) faça
+		Escreva(“1 – Soma”)
+		Escreva(“2 – Subtração”)
+		Escreva(“3 – Multiplicação”)
+		Escreva(“4 – Divisão”)
+		Escreva(“5 – Sair”)
+		Escreva(“Digite a opção:”)
+		Leia(opcao)
+		Se (opcao <> 5) faça
+			Escreva(“Informe o valor de X:”)
+			Leia(X)
+			Escreva(“Informe o valor de Y:”)
+			Leia(Y)
+			Caso (opcao)
+				Seja 1 faça soma(X,Y)
+				Seja 2 faça subtracao(X,Y)
+				Seja 3 faça divisao(X,Y)
+				Seja 4 faça multiplicacao(X,Y)
+				Senão Escreva(“Opção inválida”)
+			Fim_caso
+		Fim_se
+	Fim_enquanto
+=======
+Algoritmo calculadora
+
+Procedimento soma(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A + B
+	Escreva(“O resultado da soma é:”, Resultado)
+	
+Fim_procedimento
+
+Procedimento subtracao(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A - B
+	Escreva(“O resultado da subtração é:”, Resultado)
+
+Fim_procedimento
+
+Procedimento multiplicação(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A * B
+	Escreva(“O resultado da multiplicaçãoé :”, Resultado)
+
+Fim_procedimento
+
+Procedimento divisão(A, B: real)
+
+Var
+
+	Resultado: real
+
+Início
+
+	Resultado <- A / B
+	Escreva(“O resultado da divisão é :”,resultado)
+
+Fim_procedimento
+
+Var
+
+	opcao: inteiro
+	X, Y: real
+
+Início
+
+	opcao <- 0
+	Enquanto (opcao <> 5) faça
+		Escreva(“1 – Soma”)
+		Escreva(“2 – Subtração”)
+		Escreva(“3 – Multiplicação”)
+		Escreva(“4 – Divisão”)
+		Escreva(“5 – Sair”)
+		Escreva(“Digite a opção:”)
+		Leia(opcao)
+		Se (opcao <> 5) faça
+			Escreva(“Informe o valor de X:”)
+			Leia(X)
+			Escreva(“Informe o valor de Y:”)
+			Leia(Y)
+			Caso (opcao)
+				Seja 1 faça soma(X,Y)
+				Seja 2 faça subtracao(X,Y)
+				Seja 3 faça divisao(X,Y)
+				Seja 4 faça multiplicacao(X,Y)
+				Senão Escreva(“Opção inválida”)
+			Fim_caso
+		Fim_se
+	Fim_enquanto
+>>>>>>> 05730caa75f6915a5d35befc33c03b2f9a17e74b
+Fim

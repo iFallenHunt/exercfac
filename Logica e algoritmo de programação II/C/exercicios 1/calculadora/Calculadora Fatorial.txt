@@ -1,0 +1,29 @@
+Algoritmo calculafatorial
+
+	Procedimento Fatorial(X: inteiro)
+
+Var
+
+	i, fat: inteiro
+
+Início
+
+	fat <- 1
+	Para i de 1 até X passo 1 faça
+		fat <- fat * i
+	Fim_para
+	Escreva(“O fatorial é:”, fat)
+
+	Fim_procedimento
+
+Var
+
+	n: inteiro
+
+Início
+
+	Escreva(“Informe o número que deseja calcular o fatorial:”)
+	Leia(n)
+	Fatorial(n)
+
+Fim

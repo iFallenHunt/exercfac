@@ -1,0 +1,27 @@
+Elabore uma sub-rotina que receba um número e apresente sua raiz quadrada.
+* Objetivo do algoritmo: ler um número e apresentar sua raiz quadrada.
+* Entrada: ler um número inteiro.
+* Processamento: calcular a raiz quadrada.
+* Saída: imprimir o valor da raiz quadrada.
+
+Algoritmo raizquadrada
+
+Função raiz (X: real): real
+
+Início
+
+  Retorne X*X
+  
+Fim_função
+
+Var
+
+num, resultado: real
+
+Início
+
+  Escreva(“Informe o número:”)
+  Leia(num)
+  resultado <- sqrt(num)
+  Escreva(“A raiz quadrada é :”, resultado)
+Fim

@@ -1,0 +1,33 @@
+Elabore uma sub-rotina que receba o valor antigo de um produto e o percentual de reajuste e retorne o valor reajustado.
+* Objetivo do algoritmo: reajustar o valor de um produto.
+* Entrada: ler o preço do produto e o percentual de reajuste.
+* Processamento: calcular o reajuste do produto.
+* Saída: imprimir o valor do produto reajustado.
+
+Algoritmo produto
+
+Função reajuste(precop, percentualp: real):real
+
+Var
+
+valor: real
+
+Início
+
+    valor <- precop + (precop * (percentualp/100))
+    Retorne valor
+Fim_função
+
+Var
+
+    valor, percentual, resultado: real
+
+Início
+  
+    Escreva(“Informe o preço do produto:”)
+    Leia(valor)
+    Escreva(“Informe o percentual de reajuste:”)
+    Leia(percentual)
+    resultado <- reajuste(valor, percentual)
+    Escreva(“O valor reajustado é:”, resultado)
+Fim

@@ -1,0 +1,19 @@
+1. Escreva um algoritmo que leia 20 nomes e imprima o primeiro caractere de cada nome.
+
+2. Formule um algoritmo que entre com o nome do aluno e as notas de quatro provas de 20 alunos.Imprima nome, nota1, nota2, nota3, nota4 e média de cada aluno e informe a média geral da turma.
+
+3. Escreva um algoritmo que leia vários nomes até que seja digitado o valor “FIM”. Imprima o primeiro caractere de cada nome.
+
+4. Elabore um algoritmo que leia um vetor de 50 números inteiros e imprima o maior e o menor número.
+
+5. Escreva um algoritmo que leia dois vetores A e B, com 20 números inteiros cada. Efetue a soma dos dois vetores em um vetor C e imprima o vetor C do primeiro ao último elemento.
+
+6. Construa um algoritmo que leia o nome, o preço de compra e o preço de venda de 30 produtos distintos e imprima a quantidade de mercadorias que apresentam lucro < 15% e quantas apresentam lucro > 30%.
+
+7. Formule um algoritmo que leia uma matriz 5 x 5 de números inteiros e imprima os elementos da diagonal principal.
+
+8. Desenvolva um algoritmo que efetua a leitura dos nomes de cinco alunos e, também, de suas quatro notas bimestrais. Calcule a média de cada aluno e apresente os nomes classificados em ordem crescente de média.
+
+9. Escreva um algoritmo que recebe duas matrizes inteiras de ordem 5 e imprima a soma e a diferença entre elas.
+
+10. Formule um algoritmo que receba os valores de contas a pagar de uma empresa ao longo do ano, de modo que cada linha representa um mês do ano, e cada coluna, uma semana do mês. Com isso, temos uma matriz 12 x 4. Calcule e imprima: total de contas a pagar por mês e total anual.

@@ -1,0 +1,61 @@
+Construa um algoritmo para uma agenda telefônica (nome, fone, e-mail) com 20
+contatos. Além disso, deve ser permitido executar quantas consultas o operador
+desejar, em que ele digita o nome do contato e, caso haja contato com aquele
+nome, é apresentado o telefone na tela. Se o nome digitado não existir, informar
+o usuário sobre a inexistência.
+* Objetivo do algoritmo: ler informações sobre 20 contatos e realizar consulta pelo nome.
+* Entrada: ler nome, fone e e-mail de 20 contatos e nome para pesquisa.
+* Processamento: encontrar o nome informado pelo usuário.
+* Saída: imprimir o telefone se existir o nome informado. Senão, informar ao usuário que não há contato cadastrado com o nome digitado.
+
+Algoritmo agenda
+
+Tipo
+	Cad_agenda = registro
+		nome: Vetor[1..30] de caractere
+		fone: Vetor[1..15] de caractere
+		e-mail: Vetor[1..20] de caractere
+	Fim_registro
+
+Var
+
+	contato: Vetor[1..20] de Cad_agenda
+	i: inteiro
+	acha: lógico
+	nomebusca: Vetor[1..30] de caractere
+	resp: Vetor[1..3] de caractere
+
+Início
+
+	Para i de 1 até 20 faça
+		Escreva(“Informe nome do contato:”)
+		Leia(contato[i].nome)
+		Escreva(“Informe o telefone:”)
+		Leia(contato[i].fone)
+		Escreva(“Informe o e-mail:”)
+		Leia(contato[i].email)
+		Escreva(“Informe o e-mail:”)
+		Leia(contato[i].email)
+	Fim_para
+	resp <- “sim”
+	Enquanto (resp = “sim”) faça
+		Escreva(“Informe o nome a ser pesquisado:”)
+		Leia(nomebusca)
+		i <- 1
+		acha <- falso
+		Enquanto (i <= 20) e (acha = falso) faça
+			Se (contato[i].nome = nomebusca) então
+				acha <- verdadeiro
+			Senão
+				i <- i + 1
+			Fim_se
+		Fim_enquanto
+		Se (acha = verdadeiro) então
+			Escreva(“O fone é:”, contato[i].fone)
+		Senão
+			Escreva(“Não há contato com o nome informado”)
+		Fim_se
+		Escreva(“Deseja continuar a pesquisa?”)
+		Leia(resp)
+	Fim_enquanto
+Fim

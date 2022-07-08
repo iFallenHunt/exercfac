@@ -1,0 +1,35 @@
+Elabore um procedimento que receba um valor em segundos e converta para horas, minutos e segundos.
+* Objetivo do algoritmo: ler um valor em segundos e converter para horas, minutos e segundos.
+* Entrada: ler um número inteiro.
+* Processamento: converter os segundos para horas, dividindo por 3600. Depois, deve ser dividido por 60 (minutos) e, posteriormente, por 60, novamente, para obter os segundos.
+* Saída: imprimir as horas, os minutos e segundos resultantes da conversão.
+
+Algoritmo calculatempo
+
+Procedimento tempo(X: inteiro, Var h, m, s:inteiro)
+
+Var
+
+    resto: inteiro
+
+Início
+
+    h <- X/3600
+    resto <- X MOD 3600
+    m <- resto/60
+    s <- resto MOD 60
+Fim_procedimento
+
+Var
+
+    n, hora, minuto, segundo: inteiro
+
+Início
+
+    Escreva(“Informe os segundos que deseja converter:”)
+    Leia(n)
+    tempo(n, hora, minuto, segundo)
+    Escreva(“Horas:”, hora)
+    Escreva(“Minutos:”, minuto)
+    Escreva(“Segundos:”, segundo)
+Fim

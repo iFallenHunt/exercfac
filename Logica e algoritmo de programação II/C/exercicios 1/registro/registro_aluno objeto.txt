@@ -1,0 +1,31 @@
+Algoritmo registroaluno
+
+Tipo
+
+	Cad_aluno = registro
+		notas: Vetor [1..4] de real
+		nome: Vetor[1..50] de caractere
+	Fim_registro
+
+Var
+
+	alunos: Vetor[1..10] de Cad_aluno
+	i, j: inteiro
+
+Início
+	
+	Para i de 1 até 10 faça
+		Escreva(“Informe nome do aluno:”)
+		Leia(alunos[i].nome)
+		Para j de 1 até 4 passo 1 faça
+			Escreva(“Informe a nota”, j, “:”)
+			Leia(alunos[i].notas[j])
+		Fim_para
+	Fim_para
+	Para i de 1 até 10 faça
+		Escreva(“Aluno:”, alunos[i].nome)
+		Para j de 1 até 4 passo 1 faça
+			Escreva(“Nota”, j, “:”, alunos[i].notas[j])
+		Fim_para
+	Fim_para
+Fim

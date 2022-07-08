@@ -1,0 +1,22 @@
+Escreva um algoritmo que leia um vetor com 30 elementos inteiros e os escreva em ordem contrária à leitura.
+* Objetivo do algoritmo: ler e imprimir um vetor com 30 elementos inteiros.
+* Entrada: ler um vetor com 30 números inteiros.
+* Processamento: não há.
+* Saída: imprimir os 30 elementos em ordem contrária à leitura.
+
+Algoritmo vetor_invertido
+
+Var
+
+	num: Vetor[1..30] de inteiro	
+	i, j: inteiro
+Início
+
+	Para i de 1 até 30 passo 1 faça
+		Escreva(“Informe um número:”)
+		Leia(num[i])
+	Fim_para
+	Para i de 30 até 1 passo -1 faça
+		Escreva(num[i])
+	Fim_para
+Fim

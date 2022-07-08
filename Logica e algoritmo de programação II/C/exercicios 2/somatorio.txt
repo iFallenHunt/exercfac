@@ -1,0 +1,34 @@
+Escreva uma sub-rotina que apresente o somatório dos N primeiros números inteiros.
+* Objetivo do algoritmo: ler um número inteiro e apresentar o somatório dos números no intervalo de 1 até N.
+* Entrada: ler um número inteiro.
+* Processamento: efetuar o somatório de 1 até N.
+* Saída: imprimir o valor do somatório.
+
+Algoritmo somatorio
+
+Função soma(X: inteiro): inteiro
+
+Var
+
+    i, total: inteiro
+
+Início
+
+    total <- 0
+        Para i de 1 até X passo 1 faça
+            total <- total + i
+        Fim_para
+    Retorne total
+Fim_função
+
+Var
+
+    n, resultado: inteiro
+
+Início
+    
+    Escreva(“Informe o número:”)
+    Leia(n)
+    resultado <- soma(n)
+    Escreva(“O somatório é:”, resultado)
+Fim

@@ -1,0 +1,42 @@
+Elabore uma sub-rotina que receba três valores de entrada e retorne o maior valor.
+* Objetivo do algoritmo: ler três números inteiros e retornar o maior valor.
+* Entrada: ler três números inteiros.
+* Processamento: comparar os números e selecionar o maior.
+* Saída: imprimir o valor do maior número.
+
+Algoritmo raizquadrada
+
+Função maior(X, Y, Z: inteiro): inteiro
+
+Var
+
+    num: inteiro
+
+Início
+
+    Se (x > y) então
+        num <- x
+    Senão
+        num <- y
+    Fim_se
+    Se (z > num) então
+        num <- z
+    Fim_se
+    Retorne num
+Fim_função
+
+Var
+
+resultado, a, b, c: inteiro
+
+Início
+
+    Escreva(“Informe o valor de A:”)
+    Leia(a)
+    Escreva(“Informe o valor de B:”)
+    Leia(b)
+    Escreva(“Informe o valor de C:”)
+    Leia(c)
+    resultado <- maior(a, b, c)
+    Escreva(“O maior valor é:”, resultado)
+Fim
