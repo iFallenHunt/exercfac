@@ -1,29 +1,29 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
 
 int main(){
-	int pedido, qtdade;
-	float preco, total;
-	char data[10];
+	int acha, inteiro, num, i;
+	char vnum[20];
 	
-	total = 0;
-	
-	printf("Informe o numero do pedido: ");
-	scanf("%d", &pedido);
-	
-	while (pedido != 0){
-		printf("\nInforme a data: ");
-		scanf("%s", &data);
-		
-		printf("\nInfome o preço unitario: ");
-		scanf("%f", &preco);
-		
-		printf("\nInforme a quantidade: ");
-		scanf("%d", &qtdade);
-		
-		total = total + (preco * qtdade);
-		printf("\nO valor da compra é: %.2f\n", preco*qtdade);
-		printf("Informe o numero do novo pedido ou 0 para finalizar: ");
-		scanf("%d", &pedido);
+	for (i = 0; i < 20; i++){
+		printf("Informe um numero: ");
+		scanf("%s", &vnum[i]);
 	}
-	printf("O total da compra é: %.2f", total);
+	printf("\nInforme o numero que deseja buscar: ");
+	printf("%d", &num);
+	i = 1;
+	while ((i < 20) && (acha != 0)){
+		if (num = vnum[i]){
+			acha = 1;
+		}
+		else{
+			i = i + 1;
+		}
+	}
+	if (acha != 1){
+		printf("O elemento foi encontra na posição: \n", i);
+	}
+	else{
+		printf("\nO elemento nao foi encontrado");
+	}
 }

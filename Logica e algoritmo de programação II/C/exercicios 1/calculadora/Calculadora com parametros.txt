@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Algoritmo calculadora
 
 Procedimento soma(A, B: real)
