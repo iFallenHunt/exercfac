@@ -21,7 +21,7 @@ int main(){
 		}
 	}
 	if (acha == 1){
-		printf("O elemento foi encontra na posição: \n", i);
+		printf("O elemento foi encontra na posição: %d\n", i);
 	}
 	else{
 		printf("\nO elemento nao foi encontrado");
