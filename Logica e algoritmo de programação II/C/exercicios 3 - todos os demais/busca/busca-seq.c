@@ -1,29 +1,37 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int main(){
-	int acha, inteiro, num, i;
-	char vnum[20];
-	
-	for (i = 0; i < 20; i++){
-		printf("Informe um numero: ");
-		scanf("%s", &vnum[i]);
+int main()
+{
+	int casa[10];
+	int i, acha, busca;
+		
+	for (i = 0; i < 10; i++)
+	{
+		printf("Informe o numero da casa: ");
+		scanf("%d", &casa[i]);
 	}
 	printf("\nInforme o numero que deseja buscar: ");
-	printf("%d", &num);
-	i = 1;
-	while ((i < 20) && (acha != 0)){
-		if (num = vnum[i]){
+	scanf("%d", &busca);
+	acha = 0;
+	i = 0;
+	while ((acha == 0) && (i < 10))
+	{
+		if (casa[i] == busca)
+		{
 			acha = 1;
 		}
-		else{
-			i = i + 1;
+		else
+		{
+			i++;
 		}
 	}
-	if (acha == 1){
-		printf("O elemento foi encontra na posição: %d\n", i);
+	if (acha == 1)
+	{
+		printf("A Casa %d foi encontra na posição: %d\n", busca, i);
 	}
-	else{
-		printf("\nO elemento nao foi encontrado");
+	else
+	{
+		printf("\nA Casa não foi encontrada");
 	}
 }
