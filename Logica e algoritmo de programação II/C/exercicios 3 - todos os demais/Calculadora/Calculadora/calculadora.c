@@ -21,7 +21,7 @@ float multiplicacao(float A, float B){
 float divisao(float A, float B){
 	float resultado;
 	resultado = A / B;
-	printf("\nO resultado da Divisão é: %.2f \n", resultado);
+	printf("\nO resultado da Divissão é: %.2f \n", resultado);
 }
 
 int main(){
@@ -35,16 +35,21 @@ int main(){
 		printf ("1 - Soma\n");
 		printf ("2 - Subtração\n");
 		printf ("3 - Multiplicação\n");
-		printf ("4 - Divisão\n");
+		printf ("4 - Divissão\n");
 		printf ("5 - Sair\n");
 		printf ("Digite a opção: ");
 		scanf("%d", &opcao);
-						
+		system("cls");
+
+
 		if (opcao != 5){
 			printf("Informe o valor de X: ", X);
 			scanf("%f", &X);
+			
+			
 			printf("\nInforme o valor de Y: ", Y);
 			scanf("%f", &Y);
+			
 						
 			switch (opcao){
 				case 1:
